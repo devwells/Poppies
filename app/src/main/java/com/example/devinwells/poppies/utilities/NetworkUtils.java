@@ -29,7 +29,6 @@ import java.util.Scanner;
  * These utilities will be used to communicate with the weather servers.
  */
 public final class NetworkUtils {
-    //"w185", "w342", "w500", "w780", o
     public static final String SMALL_IMAGE_SIZE = "w185";
     public static final String MED_IMAGE_SIZE = "w342";
     public static final String LARGE_IMAGE_SIZE = "w780";
@@ -41,9 +40,6 @@ public final class NetworkUtils {
     public static final String BASE_API_URL = "http://api.themoviedb.org/3/movie/";
 
     public static final String API_KEY = "YOUR API KEY";
-
-    //http://api.themoviedb.org/3/movie/popular?api_key
-    //http://image.tmdb.org/t/p/w185//nBNZadXqJSdt05SHLqgT0HuC5Gm.jpg
 
     public enum ImageSize {SMALL, MEDIUM, LARGE};
     public enum SortType {POPULAR, TOP_RATED}
