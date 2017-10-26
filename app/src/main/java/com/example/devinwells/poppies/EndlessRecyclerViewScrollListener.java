@@ -5,7 +5,8 @@ import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.util.Log;
 
 /**
- * Created by devinwells on 10/16/17.
+ * Found on Github at https://github.com/ardok/codepath/blob/master/TwitterClient/app/src/main/java/com/codepath/twitterclient/listeners/EndlessRecyclerViewScrollListener.java
+ * 
  */
 
 public abstract class EndlessRecyclerViewScrollListener extends RecyclerView.OnScrollListener {
